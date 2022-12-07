@@ -1,12 +1,13 @@
 {
   "name": "jspractice",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This repository is a pack of small JS tasks bases on MDN documentation",
+  "type": "module",
   "scripts": {
+    "preparePractice": "node mdn/preparePractice.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Arthur Darguzhis",
   "license": "ISC",
   "quokka": {
     "autoLog": true,
