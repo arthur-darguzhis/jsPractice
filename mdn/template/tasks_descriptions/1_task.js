@@ -1,6 +1,6 @@
-//#Task 1: описание задания
-
-let a //some code
+/**
+ * #Task 1:
+ */
 
 //TODO code here
 
