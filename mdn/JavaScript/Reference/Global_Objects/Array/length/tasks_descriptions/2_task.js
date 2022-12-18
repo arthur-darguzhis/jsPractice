@@ -1,4 +1,8 @@
-// #Task 2: установите массиву arrWithMaxSize максимально возможную длину (значение свойства length 32-битное беззнаковое целое число)
+/**
+ * #Task 2: установите массиву arrWithMaxSize максимально возможную длину
+ * (значение свойства length 32-битное беззнаковое целое число)
+ */
+
 const arrWithMaxSize = [];
 arrWithMaxSize.length = //TODO code here
 
