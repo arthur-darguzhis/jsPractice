@@ -8,6 +8,6 @@ const inventory = [
   { name: "cherries", quantity: 5 },
 ];
 
-console.log(inventory. /** //TODO write code here */); //2
+console.log(inventory. /** //TODO write code here */); //1
 
 // # На случаи затруднений: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLastIndex#try_it
