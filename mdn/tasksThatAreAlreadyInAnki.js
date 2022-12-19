@@ -1,4 +1,9 @@
 const tasksInAnki = [
+  'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/flat/1_task.js',
+  'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/flat/2_task.js',
+  'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/flat/3_task.js',
+  'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/flat/4_task.js',
+  'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/flat/5_task.js',
   'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/findLastIndex/1_task.js',
   'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/findLastIndex/2_task.js',
   'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/findLast/1_task.js',
@@ -33,6 +38,4 @@ const tasksInAnki = [
   'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/length/3_task.js',
   'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/length/4_task.js'
 ]
-
-
 export default tasksInAnki
