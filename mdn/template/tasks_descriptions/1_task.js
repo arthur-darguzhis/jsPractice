@@ -2,6 +2,6 @@
  * #Task 1:
  */
 
-//TODO code here
+//TODO write code here
 
 // # На случаи затруднений: url
