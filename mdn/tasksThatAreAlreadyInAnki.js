@@ -1,4 +1,10 @@
 const tasksInAnki = [
+  'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/indexOf/1_task.js',
+  'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/indexOf/2_task.js',
+  'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/indexOf/3_task.js',
+  'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/indexOf/4_task.js',
+  'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/indexOf/5_task.js',
+  'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/indexOf/6_task.js',
   'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/includes/1_task.js',
   'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/includes/2_task.js',
   'jetbrains://web-storm/navigate/reference?project=jsPractice&path=mdn/JavaScript/Reference/Global_Objects/Array/includes/3_task.js',
