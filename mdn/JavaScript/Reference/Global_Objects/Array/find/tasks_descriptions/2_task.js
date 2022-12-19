@@ -11,4 +11,4 @@ const inventory = [
 console.log(inventory. /** //TODO write code here */);
 // { name: 'cherries', quantity: 5 }
 
-// # На случаи затруднений: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find#try_it
+// # На случаи затруднений: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find#examples
