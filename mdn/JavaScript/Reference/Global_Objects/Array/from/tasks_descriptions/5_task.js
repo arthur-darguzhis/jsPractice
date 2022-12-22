@@ -3,6 +3,7 @@
  */
 
 function f() {
+  Array.from(arguments);
   //TODO write code here
 }
 
