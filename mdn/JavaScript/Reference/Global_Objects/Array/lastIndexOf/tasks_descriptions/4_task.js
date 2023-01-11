@@ -7,8 +7,8 @@ import assert from "assert";
  * Верните индекс первого встретившегося элемента со значением 1
  */
 const fn = (...args) => {
-  return; //TODO write code here
-};
+  return //TODO write code here
+}
 
 assert.equal(fn(1, 2, 3, 1, 2, 3, 1, 2, 3), 6);
 
