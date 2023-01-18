@@ -4,8 +4,8 @@
  */
 
 const a = ["1", "2", "3", "4", "5"];
-const left = a.reduce((prev, cur) => prev + cur);
-const right = a.reduceRight((prev, cur) => prev + cur);
+const left = //TODO write code with reduce();
+const right = //TODO write code with reduce right();
 
 console.log(left);
 console.log(right);
