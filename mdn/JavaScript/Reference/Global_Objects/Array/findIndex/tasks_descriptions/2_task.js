@@ -1,3 +1,4 @@
+import assert from "assert";
 /**
  * #Task 2: Найдите индекс элемента содержащего объект где в свойстве "name" значение "cherries"
  */
@@ -8,6 +9,7 @@ const inventory = [
   { name: "cherries", quantity: 5 },
 ];
 
-console.log(inventory. /** //TODO write code here */); //2
+const cherriesIndex = inventory //TODO write code here
 
+assert.equal(cherriesIndex, 2);
 // # На случаи затруднений: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find#try_it
