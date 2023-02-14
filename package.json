@@ -10,9 +10,6 @@
   "author": "Arthur Darguzhis",
   "license": "ISC",
   "quokka": {
-    "autoLog": true,
-    "showValueOnSelection": false,
-    "showSingleInlineValue": false,
     "delay": 1000
   }
 }
