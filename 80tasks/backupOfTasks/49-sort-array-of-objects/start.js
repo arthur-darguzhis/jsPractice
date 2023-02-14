@@ -36,8 +36,12 @@ const inputProducts = [
   },
 ]
 
-// const sortedProducts = sortProductsByPrice(inputProducts)
 
-// console.log(sortedProducts) // Массив отсортированных товаров
+const sortProductsByPrice = (products) => {} //TODO write code here
 
-// console.log(inputProducts) // Оригинальный массив не должен измениться
+
+const sortedProducts = sortProductsByPrice(inputProducts)
+
+console.log(sortedProducts) // Массив отсортированных товаров
+
+console.log(inputProducts) // Оригинальный массив не должен измениться

@@ -1,4 +1,4 @@
-//Что будет в переменной data3 в 8 строке, promise или результат этого промиса.
+//Что будет в переменной data3 в 11 строке, promise или результат этого промиса.
 //Запустите код с точкой останова в 12 строке, что бы проверить себя
 
 fetch("https://google.com")
@@ -9,6 +9,7 @@ fetch("https://google.com")
     return fetch("https://yandex.ru");
   })
   .then((data3) => {
+    console.log(data3)
     console.log("pr3 then");
   });
 
