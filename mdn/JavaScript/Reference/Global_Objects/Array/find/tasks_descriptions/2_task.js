@@ -1,3 +1,4 @@
+import assert from "assert";
 /**
  * #Task 2: Найдите объект где в свойстве "name" значение "cherries"
  */
@@ -8,7 +9,7 @@ const inventory = [
   { name: "cherries", quantity: 5 },
 ];
 
-console.log(inventory. /** //TODO write code here */);
-// { name: 'cherries', quantity: 5 }
+const fruit; /** //TODO write code here */
 
+assert.deepEqual(fruit, { name: 'cherries', quantity: 5 })
 // # На случаи затруднений: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find#examples
