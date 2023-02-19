@@ -13,4 +13,5 @@ fetch("https://google.com")
     console.log("pr3 then");
   });
 
-//На случай затруднений. marginnote3app://note/D91E361E-2379-4770-BF49-35F766B1D284
+//На случай затруднений. Про суперспособность промисов как они помогают избавиться от ада из callback
+//marginnote3app://note/D91E361E-2379-4770-BF49-35F766B1D284
