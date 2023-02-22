@@ -1,3 +1,5 @@
+import assert from "assert";
+
 /** ЗАДАЧА 67 - Параметры функции по умолчанию
  *
  * 1. Ответьте на следующий вопрос:
@@ -9,18 +11,11 @@
  */
 
 function multiplyBy(a, mult) {
-  mult = mult !== undefined ? mult : 2
-  console.log(a * mult)
+  mult = mult !== undefined ? mult : 2;
+  return a * mult;
 }
 
-multiplyBy(2)
-// 4
-
-multiplyBy(2, undefined)
-// 4
-
-multiplyBy(2, 0)
-// 0
-
-multiplyBy(5, 10)
-// 50
+assert.equal(multiplyBy(2), 4);
+assert.equal(multiplyBy(2, undefined), 4);
+assert.equal(multiplyBy(2, 0), 0);
+assert.equal(multiplyBy(5, 10), 50);
