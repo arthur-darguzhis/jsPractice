@@ -1,3 +1,4 @@
+import assert from "assert";
 /** ЗАДАЧА 56 - Деструктуризация объектов
  *
  * 1. Измените функцию "personInfo" так, чтобы получить в консоли такой же вывод
@@ -20,14 +21,11 @@ const person = {
 
 const result = personInfo(person)
 
-console.log(result)
-/*
-{
+assert.deepEqual(result, {
   name: "Alice",
   personAge: 19,
   origin: "England",
   homeCity: "London",
   friendsQty: 0,
-  createdAtYear: *current year*
-}
-*/
+  createdAtYear: new Date().getFullYear()
+})
