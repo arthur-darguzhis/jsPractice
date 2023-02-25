@@ -1,3 +1,4 @@
+import assert from "assert";
 /** ЗАДАЧА 61 - Сумма чисел
  *
  * 1. Создайте функцию "sumNumbers", которая будет суммировать все переданные ей аргументы.
@@ -8,11 +9,8 @@
  * 3. Также верните эту сумму как результат функции
  */
 
-sumNumbers(1, 3)
-// 4
+//TODO write code here
 
-sumNumbers(10, 20, 5)
-// 35
-
-sumNumbers(2, 5, 80, 1, 10, 12)
-// 110
+assert(sumNumbers(1, 3), 4)
+assert(sumNumbers(10, 20, 5), 35)
+assert(sumNumbers(2, 5, 80, 1, 10, 12), 110)
