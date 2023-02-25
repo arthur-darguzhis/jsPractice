@@ -1,3 +1,4 @@
+import assert from "assert";
 /** ЗАДАЧА 75 - Перебор символов строки
  *
  * Подсчитайте количество строчных гласных букв в строке.
@@ -9,7 +10,11 @@ const vowels = ['a', 'e', 'i', 'o', 'u']
 
 const str = 'Today is the best day of my life'
 
-// Напишите код здесь
+//TODO write code here
+str.forEach((letter) => {
+  if(vowels.includes(letter)) {
+    vowelsCount += 1;
+  }
+})
 
-console.log(vowelsCount)
-// 9
+assert.equal(vowelsCount, 9)
