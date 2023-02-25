@@ -1,3 +1,4 @@
+import assert from "assert";
 /** ЗАДАЧА 74 - Деструктуризация объектов
  *
  * Создайте функцию "shortPerson", которая деструктуризирует объект
@@ -27,10 +28,7 @@ const person2 = {
   },
 }
 
-// Напишите функцию "shortPerson" здесь
+//TODO write code here
 
-console.log(shortPerson(person1))
-// { n: "Mike", c: "Spain", a: 23, p: 100 }
-
-console.log(shortPerson(person2))
-// { n: "Alice", c: "Italy", a: 25, p: 0 }
+assert.deepEqual(shortPerson(person1), { n: "Mike", c: "Spain", a: 23, p: 100 })
+assert.deepEqual(shortPerson(person2), { n: "Alice", c: "Italy", a: 25, p: 0 })
