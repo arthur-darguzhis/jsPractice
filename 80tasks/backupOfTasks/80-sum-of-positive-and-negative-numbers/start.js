@@ -1,3 +1,4 @@
+import assert from "assert";
 /** ЗАДАЧА 80 - Сумма положительных и отрицательных чисел
  *
  * 1. Создайте функцию "sumPositiveNegative", которая принимает массив
@@ -12,9 +13,8 @@
 
 const nums = [10, -12, 30, -1, -8, 0, 14, -33, 20]
 
-// Создайте функцию "sumPositiveNegative" здесь
+//TODO write code here
 
 const result = sumPositiveNegative(nums)
 
-console.log(result)
-// { positive: 74, negative: -54 }
+assert.deepEqual(result, { positive: 74, negative: -54 })
