@@ -1,3 +1,4 @@
+import assert from "assert";
 /** ЗАДАЧА 70 - Деструктуризация массивов и "rest" оператор
  *
  * Присвойте переменным "a", "b" и "с" значения, используя
@@ -8,13 +9,8 @@
 
 const arr = [1, 2, 3, 4, 5, 6, 7]
 
-// Напишите код здесь
+//TODO write code here
 
-console.log(a)
-// 1
-
-console.log(b)
-// 2
-
-console.log(c)
-// [3, 4, 5, 6, 7]
+assert.equal(a, 1)
+assert.equal(b, 2)
+assert.equal(c, [3, 4, 5, 6, 7])
