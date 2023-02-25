@@ -1,3 +1,4 @@
+import assert from "assert";
 /**
  * #Task 2: Ищите с конца массива объект в котором значение в поле quantity меньше 2
  */
@@ -9,7 +10,7 @@ const inventory = [
   { name: "cherries", quantity: 5 },
 ];
 
-console.log(inventory. /** //TODO write code here */);
-// { name: "fish", quantity: 1 }
+const fruit = inventory//TODO write code here;
+assert.deepEqual(fruit, { name: "fish", quantity: 1 })
 
 // # На случаи затруднений: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast#examples
