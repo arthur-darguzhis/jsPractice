@@ -1,3 +1,5 @@
+import assert from "assert";
+
 /** ЗАДАЧА 73 - Шаблонные строки
  *
  * Создайте функцию "carInfo", которая возвращает информацию о машине:
@@ -8,12 +10,19 @@
  */
 
 const cars = [
-  { brand: 'Honda', price: 13000 },
-  { brand: 'Rolls-Royce', price: 120000 },
-]
+  {
+    brand: "Honda",
+    price: 13000
+  },
+  {
+    brand: "Rolls-Royce",
+    price: 120000
+  }
+];
 
-// Создайте функцию "carInfo" здесь
+const carInfo = (car) => {
+  //TODO write code here
+};
 
-cars.forEach((car) => console.log(carInfo(car)))
-// Цена автомобиля Honda - 13000$ и это дешёвая машина
-// Цена автомобиля Rolls-Royce - 120000$ и это дорогая машина
+assert.deepEqual(carInfo(cars[0]), "Цена автомобиля Honda - 13000$ и это дешёвая машина");
+assert.deepEqual(carInfo(cars[1]), "Цена автомобиля Rolls-Royce - 120000$ и это дорогая машина");
