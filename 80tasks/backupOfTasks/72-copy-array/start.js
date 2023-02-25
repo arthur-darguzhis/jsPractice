@@ -1,17 +1,15 @@
+import assert from "assert";
 /** ЗАДАЧА 72 - Копия массива
  *
  * Создайте копию массива.
  * При изменении копии массива оригинальный массив не должен изменяться
  */
 
-const a = [1, 2, 3]
+const a = [1, 2, 3];
 
 // Напишите код здесь
 
-b.push('newElement')
+b.push("newElement");
 
-console.log(a)
-// [1, 2, 3]
-
-console.log(b)
-// [1, 2, 3, "newElement"]
+assert(a, [1, 2, 3]);
+assert(b, [1, 2, 3, "newElement"]);
