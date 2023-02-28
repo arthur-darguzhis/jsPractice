@@ -1,4 +1,6 @@
-/* Реализуйте промисификацию функции delay, что бы задавать таймер */
+import assert from "assert";
+/* Реализуйте промисификацию функции delay, что бы задавать таймер
+* При этом обязательно что бы промис, возвращал количество ms. */
 
 setTimeout(() => {
   console.log(1);
@@ -11,7 +13,11 @@ setTimeout(() => {
 }, 1000);
 
 const delay = (ms) => {
-  //TODO write code here
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(ms);
+    }, ms);
+  });
 };
 
 delay(1000)
@@ -27,3 +33,7 @@ const delayTime2 = await delay(2000);
 console.log(delayTime2);
 const delayTime3 = await delay(3000);
 console.log(delayTime3);
+
+assert.equal(delayTime1, 1000);
+assert.equal(delayTime2, 2000);
+assert.equal(delayTime3, 3000);
