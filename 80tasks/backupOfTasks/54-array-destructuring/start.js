@@ -1,3 +1,4 @@
+import assert from "assert";
 /** ЗАДАЧА 54 - Деструктуризация массива
  *
  * Измените раздел параметров в функции "processQuantities" так,
@@ -6,7 +7,8 @@
  * Используйте деструктуризацию массива
  */
 
-const processQuantities = (/* parameters */) => {
+const processQuantities = (arr) => {
+  //TODO write code here
   console.log(minQty) // 8
   console.log(maxQty) // 29
   console.log(defaultQty) // 10 в первом вызове, 0 во втором вызове
@@ -14,7 +16,7 @@ const processQuantities = (/* parameters */) => {
 }
 
 const inputQuantities1 = [8, 29, 10]
-console.log(processQuantities(inputQuantities1)) // 31
+assert.equal(processQuantities(inputQuantities1), 31)
 
 const inputQuantities2 = [8, 29]
-console.log(processQuantities(inputQuantities2)) // 21
+assert.equal(processQuantities(inputQuantities2), 21)
