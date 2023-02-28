@@ -1,3 +1,4 @@
+import assert from "assert";
 /** ЗАДАЧА 68 - Проверка наличия аргументов в вызове функции
  *
  * Измените функцию "square" так, чтобы в случае ее вызова
@@ -5,13 +6,11 @@
  * "Функция "square" не может быть вызвана без аргумента"
  */
 
+
 function square(a) {
-  console.log(a * a)
+  //TODO write code here
+  return a * a;
 }
 
-square(10)
-// 100
-
-square()
-// ДО: NaN
-// ПОСЛЕ: Uncaught Error: Функция "square" не может быть вызвана без аргумента
+assert.equal(square(10), 100);
+assert.throws(() => {square()});
