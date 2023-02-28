@@ -1,3 +1,4 @@
+import assert from "assert";
 /** ЗАДАЧА 79 - Перебор свойств объекта
  *
  * 1. Создайте функцию "sumObjectValues", которая будет суммировть
@@ -12,12 +13,11 @@
 const objectWithNumbers = {
   a: 10,
   b: 20,
-  c: 'string',
-  d: 12,
-}
+  c: "string",
+  d: 12
+};
 
-// Создайте функцию здесь
+//TODO write code here
 
-const result = sumObjectValues(objectWithNumbers)
-console.log(result)
-//42
+const result = sumObjectValues(objectWithNumbers);
+assert.equal(result, 42)
