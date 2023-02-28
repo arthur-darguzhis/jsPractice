@@ -1,3 +1,4 @@
+import assert from "assert";
 /** ЗАДАЧА 77 - Замыкания
  *
  * 1. Создайте функцию "createGreeting", внутри которой создайте:
@@ -14,19 +15,11 @@
  *  - changeGreeting
  */
 
-const greeting1 = createGreeting()
+//TODO write code here
 
-console.log(greeting1.greet('Bob'))
-// Hey, this is Bob
-
-greeting1.changeGreeting('Good Morning from')
-
-console.log(greeting1.greet('Emily'))
-// Good Morning from Emily
-
-/* ____________  */
-
-const greeting2 = createGreeting()
-
-console.log(greeting2.greet('Emily'))
-// Hey, this is Emily
+const greeting1 = createGreeting();
+assert.equal(greeting1.greet("Bob") ,'Hey, this is Bob')
+greeting1.changeGreeting("Good Morning from");
+assert.equal(greeting1.greet("Emily"), "Good Morning from Emily")
+const greeting2 = createGreeting();
+assert.equal(greeting2.greet("Emily"),"Hey, this is Emily")
