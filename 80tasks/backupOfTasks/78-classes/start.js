@@ -1,3 +1,4 @@
+import assert from "assert";
 /** ЗАДАЧА 78 - Классы
  *
  * 1. Создайте класс "Fruit"
@@ -14,9 +15,7 @@
  */
 
 const apple = new Fruit('Apple', 2)
-console.log(apple.priceInfo())
-// Price of the Apple is 2$
+assert.equal(apple.priceInfo(), 'Price of the Apple is 2$')
 
 const orange = new Fruit('Orange', 3)
-console.log(orange.priceInfo())
-// Price of the Orange is 3$
+assert.equal(orange.priceInfo(), 'Price of the Orange is 3$')
