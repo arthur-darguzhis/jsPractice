@@ -1,3 +1,4 @@
+import assert from "assert";
 /** ЗАДАЧА 69 - Деструктуризация объектов
  *
  * Создайте функцию "mult", в которой будут умножаться
@@ -9,11 +10,9 @@
 const objectWithNumbers = {
   x: 5,
   y: 20,
-  z: 3,
-}
+  z: 3
+};
 
-// Создайте функцию здесь
+//TODO write code here
 
-const result = mult(objectWithNumbers)
-console.log(result)
-// 300
+assert.equal(mult(objectWithNumbers), 300)
