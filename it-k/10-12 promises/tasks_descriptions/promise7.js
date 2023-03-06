@@ -13,5 +13,5 @@ promise2.then((five) => console.log(five))
     };
   })
   .then((xxx) => {
-
+    console.log(xxx)
   });
