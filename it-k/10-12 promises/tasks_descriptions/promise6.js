@@ -1,4 +1,4 @@
-//Что будет храниться в xxx в 14 строке?
+//Что будет храниться в xxx в 13 строке?
 
 const promise = fetch("https://google.com");
 const promise2 = promise.then((data) => {
