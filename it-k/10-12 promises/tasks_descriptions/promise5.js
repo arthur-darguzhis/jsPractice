@@ -1,10 +1,12 @@
-//1) Что возвращает fetch и почему название константы data в 5 строке не подходящее?
+//1) Почему в 11 строке константа data имеет неправильное имя? что на самом деле будет храниться в этой константе?
 //   Исправьте имя константы data на правильное
-//2) Напишите код выводит в консоль значение 5 из 7 строки
+//2) Напишите который выводит в консоль значение 5 из 7 строки
 
-const data = fetch("https://google.com");
-data.then((data) => {
+const promise = fetch("https://google.com");
+const promise2 = promise.then((data) => {
   return 5;
 });
 
-//TODO 2 task write code here
+promise2.then((data) => {
+  console.log(data);
+});

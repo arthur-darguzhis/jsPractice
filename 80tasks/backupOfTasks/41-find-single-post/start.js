@@ -1,3 +1,4 @@
+import assert from "assert";
 /** ЗАДАЧА 41 - Поиск объектов в массиве
  *
  * 1. Создайте функцию "findPostById" с двумя параметрами:
@@ -16,6 +17,5 @@ const posts = [
   { postId: 6134, commentsQuantity: 2 },
 ]
 
-console.log(findPostById(6134, posts)) // { postId: 6134, commentsQuantity: 2 }
-
-console.log(findPostById(4511, posts)) // undefined
+assert.deepEqual(findPostById(6134, posts), { postId: 6134, commentsQuantity: 2 } )
+assert.deepEqual(findPostById(4511, posts), undefined)

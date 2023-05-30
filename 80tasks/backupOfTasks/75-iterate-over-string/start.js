@@ -12,10 +12,5 @@ const vowels = ["a", "e", "i", "o", "u"];
 const str = "Today is the best day of my life";
 
 //TODO write code here
-for (const letter of str) {
-  if (vowels.includes(letter)) {
-    vowelsCount += 1;
-  }
-}
 
 assert.equal(vowelsCount, 9);
