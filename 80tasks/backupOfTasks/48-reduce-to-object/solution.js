@@ -6,6 +6,7 @@
  * равными категориям, и значениями,
  * равными сумме всех количеств в каждой категории
  */
+import assert from "assert";
 
 function quantitiesByCategories(products) {
   return products.reduce((qtysByCategories, product) => {
@@ -44,9 +45,8 @@ const inputProducts = [
   },
 ]
 
-console.log(quantitiesByCategories(inputProducts))
-/* {
+assert.deepEqual(quantitiesByCategories(inputProducts), {
   Accessories: 3,
   Phones: 1,
   Watches: 2
-} */
+})
