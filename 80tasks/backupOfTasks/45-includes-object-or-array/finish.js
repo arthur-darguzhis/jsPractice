@@ -8,6 +8,7 @@
  * вам необходимо сначала преобразовать каждый элемент "inputArray" в строку,
  * а затем применить метод "includes" с аргументом, который также будет преобразован в строку
  */
+import assert from "assert";
 
 const tags = [
   ['javascript', 'es6'],
@@ -23,12 +24,8 @@ const fruits = [
 
 const primitiveTypesArray = [25, 'x', true, undefined, null]
 
-console.log(isElementInArray(['css', 'flexbox'], tags)) // true
-
-console.log(isElementInArray(['flexbox', 'css'], tags)) // false
-
-console.log(isElementInArray({ title: 'Apple', quantity: 25 }, fruits)) // true
-
-console.log(isElementInArray({ title: 'Banana' }, fruits)) // false
-
-console.log(isElementInArray(25, primitiveTypesArray)) // true
+assert.equal(isElementInArray(['css', 'flexbox'], tags), true)
+assert.equal(isElementInArray(['flexbox', 'css'], tags), false)
+assert.equal(isElementInArray({ title: 'Apple', quantity: 25 }, fruits), true) // true
+assert.equal(isElementInArray({ title: 'Banana' }, fruits), false)
+assert.equal(isElementInArray(25, primitiveTypesArray), true)
