@@ -13,5 +13,6 @@ const tasksInAnki = [
   'jetbrains://web-storm/navigate/reference?project=jsPractice&path=/Users/arthur/WebstormProjects/jsPractice/it-k/10-12 promises/promise12.js',
   'jetbrains://web-storm/navigate/reference?project=jsPractice&path=/Users/arthur/WebstormProjects/jsPractice/it-k/10-12 promises/promise13.js',
   'jetbrains://web-storm/navigate/reference?project=jsPractice&path=/Users/arthur/WebstormProjects/jsPractice/it-k/algoritms/1.js',
+  'jetbrains://web-storm/navigate/reference?project=jsPractice&path=/Users/arthur/WebstormProjects/jsPractice/it-k/algoritms/2.js',
 ]
 export default tasksInAnki
