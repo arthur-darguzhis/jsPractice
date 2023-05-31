@@ -8,6 +8,7 @@
  *
  * 4. Выведите в консоль "commentsQuantity" последнего объекта
  */
+import assert from "assert";
 
 const postsJSON = [
   '{"postId":1355,"commentsQuantity":5}',
@@ -15,3 +16,12 @@ const postsJSON = [
   '{"postId":6134,"commentsQuantity":2}',
   '{"postId":2351,"commentsQuantity":8}',
 ]
+
+const postsList = postsJSON //TODO write code here
+
+assert.deepEqual(postsList, [
+  {"postId":1355,"commentsQuantity":5},
+  {"postId":5131,"commentsQuantity":13},
+  {"postId":6134,"commentsQuantity":2},
+  {"postId":2351,"commentsQuantity":8},
+])
